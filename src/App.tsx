@@ -1,6 +1,7 @@
 import './App.css'
-import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet"
+import '/node_modules/@fontsource/inter';
 import Sidebar from './components/sidebar'
+import { Outlet } from 'react-router-dom';
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <div>
         <Sidebar/>
+        <Outlet/>
       </div>
     </>
   )

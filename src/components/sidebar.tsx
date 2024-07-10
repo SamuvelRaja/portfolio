@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const Sidebar = () => {
@@ -11,14 +12,24 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="nav-1 mt-4 flex-col">
-                <div className="p-2 flex justify-between items-center text-[#858585]">
-
-                    <div className="flex gap-2">
-                        <img className="w-[24px] h-[24px]" src="/src/assets/explore.svg" alt="" />
-                        <p>Explore</p>
+                <Link to="/">
+                    <div className="p-2 flex justify-between items-center hover:text-[#fff] transition-all duration-150 ease-out hover:ease-in text-[#858585] ">
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[24px] h-[24px]" src="/src/assets/explore.svg" alt="explore icon" />
+                            <p>Explore</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">1</span>
                     </div>
-                    <span className="p-1 ">1</span>
-                </div>
+                </Link>
+                <Link to="/projects">
+                    <div className="p-2 flex justify-between items-center hover:text-[#fff] transition-all duration-150 ease-out hover:ease-in text-[#858585] ">
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[24px] h-[24px]" src="/src/assets/projects.svg" alt="projects icon" />
+                            <p>projects</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">1</span>
+                    </div>
+                </Link>
             </div>
         </nav>
     )
