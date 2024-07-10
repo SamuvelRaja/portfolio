@@ -70,6 +70,16 @@
     * {
       @apply border-border;
     }
+    .navlinks{
+      @apply p-2 rounded-[6px] flex justify-between items-center hover:text-[#fff] transition-all duration-150 ease-out hover:ease-in border text-[#858585] border-transparent 
+    }
+    .navlinks.active{
+      @apply text-[#fff] bg-[#2c2c2c] border-[#393939]
+    }
+    .navlinks.npg img{
+      filter: brightness(0) saturate(100%) invert(47%) sepia(92%) saturate(0%) hue-rotate(203deg) brightness(93%) contrast(97%);
+    }
+   
   }
   body{
     background-color: rgb(22 22 22);
