@@ -29,7 +29,16 @@ const Sidebar = () => {
                             <img className="w-[24px] h-[24px]" src="/src/assets/projects.svg" alt="projects icon" />
                             <p>Projects</p>
                         </div>
-                        <span className="px-1 rounded-sm border border-[#252525]">1</span>
+                        <span className="px-1 rounded-sm border border-[#252525]">2</span>
+                    </div>
+                </Link>
+                <Link to="/stack">
+                    <div className={`navlinks ${location.pathname=="/stack"?'active':'npg'}   `}>
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[24px] h-[24px]" src="/src/assets/stacks.svg" alt="stack icon" />
+                            <p>Stack</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">3</span>
                     </div>
                 </Link>
                 <Link to="/services">
@@ -38,7 +47,7 @@ const Sidebar = () => {
                             <img className="w-[24px] h-[24px]" src="/src/assets/services.svg" alt="services icon" />
                             <p>Services</p>
                         </div>
-                        <span className="px-1 rounded-sm border border-[#252525]">1</span>
+                        <span className="px-1 rounded-sm border border-[#252525]">4</span>
                     </div>
                 </Link>
                 <Link to="/about">
@@ -47,7 +56,73 @@ const Sidebar = () => {
                             <img className="w-[24px] h-[24px]" src="/src/assets/about.svg" alt="about icon" />
                             <p>About</p>
                         </div>
-                        <span className="px-1 rounded-sm border border-[#252525]">1</span>
+                        <span className="px-1 rounded-sm border border-[#252525]">5</span>
+                    </div>
+                </Link>
+            </div>
+            <div className="nav-1 mt-4 flex-col">
+                <p  className="font-thin text-[12px] text-[#858585]">Goodreads</p>
+                <Link to="/blogs">
+                    <div className={`navlinks  ${location.pathname=="/blogs"?'active':'npg'}  `}>
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[24px] h-[24px]" src="/src/assets/feed.svg" alt="blog icon" />
+                            <p>Blogs</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">6</span>
+                    </div>
+                </Link>
+                <Link to="/resources">
+                    <div className={`navlinks ${location.pathname=="/resources"?'active':'npg'}   `}>
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[24px] h-[24px]" src="/src/assets/thought.svg" alt="resources icon" />
+                            <p>Resources</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">7</span>
+                    </div>
+                </Link>
+            </div>
+            <div className="nav-1 mt-4 flex-col">
+                <p  className="font-thin text-[12px] text-[#858585]">connect</p>
+                <Link to="/contact">
+                    <div className={`navlinks  ${location.pathname=="/contact"?'active':'npg'}  `}>
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[24px] h-[24px]" src="/src/assets/contact.svg" alt="contact icon" />
+                            <p>Contact</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">8</span>
+                    </div>
+                </Link>
+                <Link to="https://github.com/SamuvelRaja">
+                    <div className={`navlinks npg `}>
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[24px] h-[24px]" src="/src/assets/git.svg" alt="github icon" />
+                            <p>Github</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">
+                            &#8599;
+                        </span>
+                    </div>
+                </Link>
+                <Link to="https://x.com/the_sam_js">
+                    <div className={`navlinks npg `}>
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[20px] h-[20px]" src="/src/assets/x.svg" alt="x icon" />
+                            <p>Twitter</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">
+                            &#8599;
+                        </span>
+                    </div>
+                </Link>
+                <Link to="https://www.linkedin.com/in/samuvel-raja-10321a220/">
+                    <div className={`navlinks npg `}>
+                        <div className="flex gap-2 items-center">
+                            <img className="w-[20px] h-[20px]" src="/src/assets/linkedin.svg" alt="linkedin icon" />
+                            <p>Linkedin</p>
+                        </div>
+                        <span className="px-1 rounded-sm border border-[#252525]">
+                            &#8599;
+                        </span>
                     </div>
                 </Link>
             </div>
