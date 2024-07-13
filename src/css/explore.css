@@ -1,0 +1,25 @@
+.typewriter {
+  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid grey;
+}
+
+.cursor {
+  display: inline-block;
+  background-color: black;
+  width: 1px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

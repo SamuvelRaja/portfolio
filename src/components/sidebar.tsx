@@ -1,5 +1,15 @@
-import { Link, useLocation } from "react-router-dom"
-
+import { Link, useLocation } from "react-router-dom";
+import exploreIcon from "/src/assets/explore.svg";
+import projectsIcon from "/src/assets/projects.svg";
+import stackIcon from "/src/assets/stacks.svg";
+import servicesIcon from "/src/assets/services.svg";
+import aboutIcon from "/src/assets/about.svg";
+import feedIcon from "/src/assets/feed.svg";
+import thoughtIcon from "/src/assets/thought.svg";
+import contactIcon from "/src/assets/contact.svg";
+import githubIcon from "/src/assets/git.svg";
+import linkedinIcon from "/src/assets/linkedin.svg";
+import xIcon from "/src/assets/x.svg";
 
 const Sidebar = () => {
     const location=useLocation()
@@ -17,7 +27,7 @@ const Sidebar = () => {
                 <Link to="/">
                     <div className={`navlinks  ${location.pathname=="/"?'active':'npg'}  `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/explore.svg" alt="explore icon" />
+                            <img className="w-[24px] h-[24px]" src={exploreIcon} alt="explore icon" />
                             <p>Explore</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">1</span>
@@ -26,7 +36,7 @@ const Sidebar = () => {
                 <Link to="/projects">
                     <div className={`navlinks ${location.pathname=="/projects"?'active':'npg'}   `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/projects.svg" alt="projects icon" />
+                            <img className="w-[24px] h-[24px]" src={projectsIcon} alt="projects icon" />
                             <p>Projects</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">2</span>
@@ -35,7 +45,7 @@ const Sidebar = () => {
                 <Link to="/stack">
                     <div className={`navlinks ${location.pathname=="/stack"?'active':'npg'}   `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/stacks.svg" alt="stack icon" />
+                            <img className="w-[24px] h-[24px]" src={stackIcon} alt="stack icon" />
                             <p>Stack</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">3</span>
@@ -44,7 +54,7 @@ const Sidebar = () => {
                 <Link to="/services">
                     <div className={`navlinks ${location.pathname=="/services"?'active':'npg'}   `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/services.svg" alt="services icon" />
+                            <img className="w-[24px] h-[24px]" src={servicesIcon} alt="services icon" />
                             <p>Services</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">4</span>
@@ -53,7 +63,7 @@ const Sidebar = () => {
                 <Link to="/about">
                     <div className={`navlinks ${location.pathname=="/about"?'active':'npg'}   `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/about.svg" alt="about icon" />
+                            <img className="w-[24px] h-[24px]" src={aboutIcon} alt="about icon" />
                             <p>About</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">5</span>
@@ -65,7 +75,7 @@ const Sidebar = () => {
                 <Link to="/blogs">
                     <div className={`navlinks  ${location.pathname=="/blogs"?'active':'npg'}  `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/feed.svg" alt="blog icon" />
+                            <img className="w-[24px] h-[24px]" src={feedIcon} alt="blog icon" />
                             <p>Blogs</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">6</span>
@@ -74,7 +84,7 @@ const Sidebar = () => {
                 <Link to="/resources">
                     <div className={`navlinks ${location.pathname=="/resources"?'active':'npg'}   `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/thought.svg" alt="resources icon" />
+                            <img className="w-[24px] h-[24px]" src={thoughtIcon} alt="resources icon" />
                             <p>Resources</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">7</span>
@@ -86,7 +96,7 @@ const Sidebar = () => {
                 <Link to="/contact">
                     <div className={`navlinks  ${location.pathname=="/contact"?'active':'npg'}  `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/contact.svg" alt="contact icon" />
+                            <img className="w-[24px] h-[24px]" src={contactIcon} alt="contact icon" />
                             <p>Contact</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">8</span>
@@ -95,7 +105,7 @@ const Sidebar = () => {
                 <Link to="https://github.com/SamuvelRaja">
                     <div className={`navlinks npg `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/git.svg" alt="github icon" />
+                            <img className="w-[24px] h-[24px]" src={githubIcon} alt="github icon" />
                             <p>Github</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">
@@ -106,7 +116,7 @@ const Sidebar = () => {
                 <Link to="https://www.linkedin.com/in/samuvel-raja-10321a220/">
                     <div className={`navlinks npg `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src="/src/assets/linkedin.svg" alt="linkedin icon" />
+                            <img className="w-[24px] h-[24px]" src={linkedinIcon} alt="linkedin icon" />
                             <p>Linkedin</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">
@@ -117,7 +127,7 @@ const Sidebar = () => {
                 <Link to="https://x.com/the_sam_js">
                     <div className={`navlinks npg `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[20px] h-[20px]" src="/src/assets/x.svg" alt="x icon" />
+                            <img className="w-[20px] h-[20px]" src={xIcon} alt="x icon" />
                             <p>Twitter</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">

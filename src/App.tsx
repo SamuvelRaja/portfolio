@@ -1,4 +1,4 @@
-import './App.css'
+import './css/App.css'
 import '/node_modules/@fontsource/inter';
 import Sidebar from './components/sidebar'
 import { Outlet } from 'react-router-dom';
@@ -12,7 +12,11 @@ function App() {
     <>
       <div>
         <Sidebar/>
-        <Outlet/>
+        <div className='w-100% md:ml-[240px] '>
+          <div className='max-w-[960px] w-100% px-12 mx-auto'>
+            <Outlet/>
+          </div>
+        </div>
       </div>
     </>
   )
