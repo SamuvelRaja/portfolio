@@ -77,7 +77,7 @@
       @apply text-[#fff] bg-[#2c2c2c] border-[#393939]
     }
     .plinks{
-      @apply bg-[rgb(44,44,44)] text-[15px] p-1 rounded-sm
+      @apply bg-[rgb(44,44,44)] text-[15px] py-[2px] px-2 border border-[#393939] text-[#858585] rounded-[6px]
     }
     .btn{
       @apply py-2 px-6 rounded-[6px] border text-[#fff]
@@ -91,11 +91,24 @@
     .btn-secondary{
       @apply bg-[#161616]  border-[#252525]
     }
+    .card{
+      @apply border border-[#252525]  rounded-[6px] overflow-hidden
+    }
+    .p1{
+      @apply text-[#858585] text-[18px] my-6
+    }
     .navlinks.npg img{
       filter: brightness(0) saturate(100%) invert(47%) sepia(92%) saturate(0%) hue-rotate(203deg) brightness(93%) contrast(97%);
     }
     .navlinks:hover img{
       filter: brightness(100%) ;
+    }
+    ul {
+      list-style-type: none; 
+    }
+
+    li::before {
+      content: "- "; 
     }
    
   }
