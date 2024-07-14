@@ -2,6 +2,14 @@ import { Link } from "react-router-dom"
 import copyImage from "../assets/copy.svg";
 import Blinker from "@/components/blinker";
 import { useRef } from "react";
+import reactImg from "../assets/react.svg"
+import nodeImg from "../assets/node.svg"
+import nextImg from "../assets/nextjs.svg"
+import jsImg from "../assets/js.svg"
+import tailwindImg from "../assets/tailwind.svg"
+import threeImg from "../assets/three.svg"
+
+
 
 const Explore = () => {
   const copyRef =useRef<HTMLButtonElement>(null)
@@ -14,7 +22,7 @@ const Explore = () => {
     <>
       <div>
         <h1 className="text-5xl pt-20 text-white font-semibold leading-[1.20]">
-          Hey, I'm Sam.js, <br /> I code <Blinker texts={["FrontEnd", "Backend", "Middlewares"]} />
+          Hey, I'm Sam.js, <br /> I code <Blinker texts={["FrontEnd", "Backend", "Middlewares", "Whatever..."]} />
           <br /> with <span className="text-[#858585]">javaScript</span></h1>
         <p className="text-[#858585] text-[18px] my-6">
           I'm a Frontend Developer, I can build webapps with good looking user interfaces and awesome functionalities,
@@ -30,6 +38,73 @@ const Explore = () => {
           </button>
         </div>
       </div>
+      {/* stack section */}
+      <div>
+        <div className="border border-[#252525] p-6 mt-10 rounded-[6px]">
+          <h2 className="mt-2 font-medium">Stack</h2>
+          <p className="text-[#858585] my-4">Tools and technologies that i work on</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <div className="flex p-[6px] border hover:border-[#393939] border-transparent rounded-sm hover:bg-[#2c2c2c]">
+              <img className="w-[40px]" src={jsImg} alt="js icon" />
+              <div className="ml-2">
+                <h3 className="font-normal">JavaScript</h3>
+                <p className="text-[#858585] font-extralight">
+                  programming Language
+                </p>
+              </div>
+            </div>
+            <div className="flex p-[6px] border hover:border-[#393939] border-transparent rounded-sm hover:bg-[#2c2c2c]">
+              <img className="w-[40px]" src={reactImg} alt="react icon" />
+              <div className="ml-2">
+                <h3 className="font-normal">React.js</h3>
+                <p className="text-[#858585] font-extralight">
+                  a Front-End library
+                </p>
+              </div>
+              </div>
+              <div className="flex p-[6px] border hover:border-[#393939] border-transparent rounded-sm hover:bg-[#2c2c2c]">
+                <img className="w-[40px]" src={nextImg} alt="next icon" />
+                <div className="ml-2">
+                  <h3 className="font-normal">Next.js</h3>
+                  <p className="text-[#858585] font-extralight">
+                    a react framework
+                  </p>
+                </div>
+              </div>
+              <div className="flex p-[6px] border hover:border-[#393939] border-transparent rounded-sm hover:bg-[#2c2c2c]">
+                <img className="w-[40px]" src={nodeImg} alt="node icon" />
+                <div className="ml-2">
+                  <h3 className="font-normal">Node.js</h3>
+                  <p className="text-[#858585] font-extralight">
+                    backend javaScript runtime
+                  </p>
+                </div>
+              </div>
+              <div className="flex p-[6px] border hover:border-[#393939] border-transparent rounded-sm hover:bg-[#2c2c2c]">
+                <img className="w-[40px]" src={tailwindImg} alt="tailwind icon" />
+                <div className="ml-2">
+                  <h3 className="font-normal">Tailwind</h3>
+                  <p className="text-[#858585] font-extralight">
+                    a css library
+                  </p>
+                </div>
+              </div>
+              <div className="flex p-[6px] border hover:border-[#393939] border-transparent rounded-sm hover:bg-[#2c2c2c]">
+                <img className="w-[40px]" src={threeImg} alt="threejs icon" />
+                <div className="ml-2">
+                  <h3 className="font-normal">Three.js</h3>
+                  <p className="text-[#858585] font-extralight">
+                    a 3d graphics library
+                  </p>
+                </div>
+              </div>
+          </div>
+          <Link to={"/Stack"} className="btn btn-primary w-full block text-center mt-6">
+            See All
+          </Link>
+        </div>
+      </div>
+      {/* projects */}
       <div>
         
       </div>
