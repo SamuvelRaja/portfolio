@@ -94,8 +94,11 @@
     .card{
       @apply border border-[#252525]  rounded-[6px] overflow-hidden
     }
-    .p1{
+    .p2{
       @apply text-[#858585] text-[18px] my-6
+    }
+    .p1{
+      @apply text-[#858585] text-[16px] my-6
     }
     .navlinks.npg img{
       filter: brightness(0) saturate(100%) invert(47%) sepia(92%) saturate(0%) hue-rotate(203deg) brightness(93%) contrast(97%);
@@ -107,7 +110,7 @@
       list-style-type: none; 
     }
 
-    li::before {
+    li::marker {
       content: "- "; 
     }
    

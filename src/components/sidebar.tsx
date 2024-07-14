@@ -27,8 +27,8 @@ const Sidebar = () => {
                 <Link to="/">
                     <div className={`navlinks  ${location.pathname=="/"?'active':'npg'}  `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src={exploreIcon} alt="explore icon" />
-                            <p>Explore</p>
+                            <img className="w-[24px] h-[24px]" src={aboutIcon} alt="about icon" />
+                            <p>About me</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">1</span>
                     </div>
@@ -63,15 +63,15 @@ const Sidebar = () => {
                 <Link to="/about">
                     <div className={`navlinks ${location.pathname=="/about"?'active':'npg'}   `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src={aboutIcon} alt="about icon" />
-                            <p>About</p>
+                            <img className="w-[24px] h-[24px]" src={exploreIcon} alt="exlore icon" />
+                            <p>Journey</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">5</span>
                     </div>
                 </Link>
             </div>
             <div className="nav-1 mt-4 flex-col">
-                <p  className="font-thin text-[12px] p-3 text-[#858585]">Goodreads</p>
+                <p  className="font-light text-[12px] p-3 text-[#858585]">Goodreads</p>
                 <Link to="/blogs">
                     <div className={`navlinks  ${location.pathname=="/blogs"?'active':'npg'}  `}>
                         <div className="flex gap-2 items-center">
@@ -92,7 +92,7 @@ const Sidebar = () => {
                 </Link>
             </div>
             <div className="nav-1 mt-4 flex-col">
-                <p className="font-thin text-[12px] p-3 text-[#858585]">connect</p>
+                <p className="font-light text-[12px] p-3 text-[#858585]">connect</p>
                 <Link to="/contact">
                     <div className={`navlinks  ${location.pathname=="/contact"?'active':'npg'}  `}>
                         <div className="flex gap-2 items-center">
