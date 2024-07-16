@@ -129,9 +129,9 @@ const Explore = () => {
         </div>
       </div>
       {/* experience */}
-      <div>
+      <div className="exp">
         <h2 className="mt-10  text-lg font-medium">Experiences</h2>
-        <div className="card mt-6 p-6 bg-[#1c1c1c]">
+        <div className="bg1card">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer Lead - Zemuria.inc <span className="plinks">2023-2024</span></h3>
           <ul className="p1 list-outside p-4 my-0">
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et distinctio vitae tempore consectetur aut tempora. Perspiciatis fugiat deserunt fugit soluta, nobis iste, fuga sed eos ab numquam laudantium. Non, inventore.</li>
@@ -140,7 +140,7 @@ const Explore = () => {
             <li>Quis cumque ratione enim dolores maxime quibusdam vitae quas corporis maiores aut eos dignissimos nihil quae aliquam rem blanditiis alias quaerat, natus, libero, itaque temporibus? Nisi consequatur iure ea et?</li>
           </ul>
         </div>
-        <div className="card mt-6 mb-12 p-6 bg-[#1c1c1c]">
+        <div className="bg1card">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer - Zemuria.inc <span className="plinks">2022-2023</span></h3>
           <ul className="p1 list-outside p-4 my-0">
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et distinctio vitae tempore consectetur aut tempora. Perspiciatis fugiat deserunt fugit soluta, nobis iste, fuga sed eos ab numquam laudantium. Non, inventore.</li>
