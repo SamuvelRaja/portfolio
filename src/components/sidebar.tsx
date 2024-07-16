@@ -60,8 +60,8 @@ const Sidebar = () => {
                         <span className="px-1 rounded-sm border border-[#252525]">4</span>
                     </div>
                 </Link>
-                <Link to="/about">
-                    <div className={`navlinks ${location.pathname=="/about"?'active':'npg'}   `}>
+                <Link to="/journey">
+                    <div className={`navlinks ${location.pathname=="/journey"?'active':'npg'}   `}>
                         <div className="flex gap-2 items-center">
                             <img className="w-[24px] h-[24px]" src={exploreIcon} alt="exlore icon" />
                             <p>Journey</p>

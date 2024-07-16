@@ -16,7 +16,7 @@ const Explore = () => {
   const copyEmail = async() => {
     const email = "josephsamuvel001@gmail.com";
     navigator.clipboard.writeText(email);
-    copyRef.current.innerText="Copied"
+    copyRef.current?copyRef.current.innerText="Copied":"";
   };
   return (
     <>
@@ -140,7 +140,7 @@ const Explore = () => {
             <li>Quis cumque ratione enim dolores maxime quibusdam vitae quas corporis maiores aut eos dignissimos nihil quae aliquam rem blanditiis alias quaerat, natus, libero, itaque temporibus? Nisi consequatur iure ea et?</li>
           </ul>
         </div>
-        <div className="card mt-6 p-6 bg-[#1c1c1c]">
+        <div className="card mt-6 mb-12 p-6 bg-[#1c1c1c]">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer - Zemuria.inc <span className="plinks">2022-2023</span></h3>
           <ul className="p1 list-outside p-4 my-0">
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et distinctio vitae tempore consectetur aut tempora. Perspiciatis fugiat deserunt fugit soluta, nobis iste, fuga sed eos ab numquam laudantium. Non, inventore.</li>
