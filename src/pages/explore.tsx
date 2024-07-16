@@ -21,7 +21,7 @@ const Explore = () => {
   return (
     <>
       <div>
-        <h1 className="text-5xl pt-20 text-white font-semibold leading-[1.20]">
+        <h1 className="title">
           Hey, I'm Sam.js, <br /> I code <Blinker texts={["FrontEnd", "Backend", "Middlewares", "Whatever..."]} />
           <br /> with <span className="text-[#858585]">javaScript</span></h1>
         <p className="p2">
@@ -31,7 +31,7 @@ const Explore = () => {
           reach out to me <Link className="plinks" to={"/contact"}>here &#8599;</Link>
         </p>
         <div className="flex gap-6">
-          <Link className="btn btn-primary" to={"/about"}>About</Link>
+          <Link className="btn btn-primary" to={"/contact"}>Connect</Link>
 
           <button ref={copyRef} className="btn btn-secondary inline-flex gap-2" onClick={copyEmail}>
             <img  className="w-[18px]" src={copyImage} alt="Copy" /> E-mail
@@ -99,7 +99,7 @@ const Explore = () => {
                 </div>
               </div>
           </div>
-          <Link to={"/Stack"} className="btn btn-primary w-full block text-center mt-6">
+          <Link to={"/stack"} className="btn btn-primary w-full block text-center mt-6">
             See All
           </Link>
         </div>

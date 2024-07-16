@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
         <div>
-        <h2 className="pt-10 mb-4 text-lg font-medium">Projects</h2>
+        <h2 className="title">Projects</h2>
         <div className="flex gap-8">
           <div className="card  bg-[#2c2c2c]">
             <div className="overflow-hidden">
