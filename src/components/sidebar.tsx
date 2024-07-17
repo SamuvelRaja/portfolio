@@ -76,7 +76,7 @@ const Sidebar = () => {
               location.pathname == "/" ? "active" : "npg"
             }  `}
           >
-            <div className="flex-col flex md:flex-row items-center ">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center ">
               <img
                 className="w-[24px] h-[24px]"
                 src={exploreIcon}
@@ -93,7 +93,7 @@ const Sidebar = () => {
               location.pathname == "/projects" ? "active" : "npg"
             }   `}
           >
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[24px] h-[24px]"
                 src={projectsIcon}
@@ -110,7 +110,7 @@ const Sidebar = () => {
               location.pathname == "/stack" ? "active" : "npg"
             }   `}
           >
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[24px] h-[24px]"
                 src={stackIcon}
@@ -127,7 +127,7 @@ const Sidebar = () => {
               location.pathname == "/services" ? "active" : "npg"
             }   `}
           >
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[24px] h-[24px]"
                 src={servicesIcon}
@@ -144,7 +144,7 @@ const Sidebar = () => {
               location.pathname == "/aboutme" ? "active" : "npg"
             }   `}
           >
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[24px] h-[24px]"
                 src={aboutIcon}
@@ -164,7 +164,7 @@ const Sidebar = () => {
               location.pathname == "/resources" ? "active" : "npg"
             }   `}
           >
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[24px] h-[24px]"
                 src={thoughtIcon}
@@ -181,7 +181,7 @@ const Sidebar = () => {
               location.pathname == "/blogs" ? "active" : "npg"
             }  `}
           >
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[24px] h-[24px]"
                 src={feedIcon}
@@ -201,7 +201,7 @@ const Sidebar = () => {
               location.pathname == "/contact" ? "active" : "npg"
             }  `}
           >
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[24px] h-[24px]"
                 src={contactIcon}
@@ -214,7 +214,7 @@ const Sidebar = () => {
         </Link>
         <Link target="_blank" to="https://github.com/SamuvelRaja">
           <div className={`navlinks npg `}>
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[26px] h-[26px] "
                 src={githubIcon}
@@ -229,7 +229,7 @@ const Sidebar = () => {
         </Link>
         <Link target="_blank" to="https://www.linkedin.com/in/samuvel-raja-10321a220/">
           <div className={`navlinks npg `}>
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img
                 className="w-[24px] h-[24px] "
                 src={linkedinIcon}
@@ -244,7 +244,7 @@ const Sidebar = () => {
         </Link>
         <Link target="_blank" to="https://x.com/the_sam_js">
           <div className={`navlinks npg `}>
-            <div className="flex-col flex md:flex-row items-center">
+            <div className="flex-col flex md:flex-row md:gap-2 items-center">
               <img className="w-[20px] h-[20px] mb-1" src={xIcon} alt="x icon" />
               <p>Twitter</p>
             </div>
