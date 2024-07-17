@@ -145,16 +145,16 @@ const Explore = () => {
         <div className="bg1card ">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer Lead - Zemuria.inc <span className="plinks">2023-2024</span></h3>
           <ul className="p1 list-outside p-4 my-0">
+            <li>Led and mentored a team of 6 front-end developers, fostering a collaborative and high-performing environment.</li>
             <li>Collaborated with the backend teams on the implementation of robust security measures, including JWT authentication and secure session handling.</li>
-            <li><strong>Internal Blog Engine</strong> Developed a feature-rich blog engine with a modern text editor and implemented a polling mechanism and debouncing on the editor, later transforming it into a successful commercial product.</li>
-            <li><strong>Next.js E-commerce Platform Re-architecture:</strong> Rewrote the codebase using Next.js, implementing a scalable multi-tenant architecture and handled server-side logic such as middleware, API design and architecture, route handlers and managing JWT session single-handedly.</li>
-            <li><strong>Implemented Google SSO</strong> Successfully integrated Google Single Sign-On (SSO) into a Next.js application, significantly streamlining user authentication and enhancing security.</li>
+            <li><strong>Internal Blog Engine:</strong> Developed a feature-rich blog engine with a modern text editor and implemented a polling mechanism and debouncing on the editor.</li>
+            <li><strong>Next.js E-commerce Platform Re-architecture:</strong> implementing a scalable multi-tenant architecture and handled server-side logic such as middleware, API design and architecture, route handlers and managing JWT session single-handedly.</li>
+            <li><strong>Implemented Google SSO:</strong> Successfully integrated Google Single Sign-On (SSO) into a Next.js application, significantly streamlining user authentication and enhancing security.</li>
           </ul>
         </div>
         <div className="bg1card">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer - Zemuria.inc <span className="plinks">2022-2023</span></h3>
           <ul className="p1 list-outside p-4 my-0">
-            <li>Led and mentored a team of 6 front-end developers, fostering a collaborative and high-performing environment.</li>
             <li>Successfully trained and upskilled 4 junior developers, empowering them to become proficient contributors.</li>
             <li><strong>E-commerce Performance Optimization:</strong> Spearheaded a complete redesign and codebase migration, resulting in a 5x improvement in loading speed and enhanced user experience.</li>
             <li><strong>High-Performance E-commerce Theme Development:</strong> Built a new theme from scratch, achieving exceptional PageSpeed scores and contributing to increased organic sales for clients.</li>
