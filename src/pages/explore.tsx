@@ -6,9 +6,10 @@ import nextImg from "../assets/nextjs.svg"
 import jsImg from "../assets/js.svg"
 import tailwindImg from "../assets/tailwind.svg"
 import threeImg from "../assets/three.svg"
-import project from "../assets/project.avif"
+import earth from "/public/images/earth.webp"
+import github from "../assets/git.svg"
 import Copy from "@/components/copy"
-
+import apple from "/public/images/apple.webp"
 
 const Explore = () => {
   
@@ -98,46 +99,65 @@ const Explore = () => {
       {/* projects */}
       <div>
         <h2 className="mt-10 mb-4 text-lg font-medium">Projects</h2>
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="card  bg-[#2c2c2c]">
-            <div className="overflow-hidden">
-              <img src={project} alt="project" className=" hover:scale-110 transition-all" />
+        <div className="flex flex-col lg:flex-row gap-8 mt-8">
+          <Link target="_blank" to={"https://iphone.samjs.me"}>
+            <div className="card min-h-[298px]  bg-[#2c2c2c]">
+              <div className="overflow-hidden">
+                <img src={apple} alt="project" className=" hover:scale-110 transition-all" />
+              </div>
+              <div className="p-4 relative">
+                <h3>iphone 3d and animation replica</h3>
+                <p className="text-[#858585] font-extralight">This project is a iphone landing page replica mainly focusing on recreating animations and iphone 3d model</p>
+                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/passionfruit-appleclone-"}>
+                  <img
+                  className="w-[26px] h-[26px] "
+                  src={github}
+                  alt="github icon"
+                />
+                </Link>
+              </div>
             </div>
-            <div className="p-4">
-              <h3>Billify</h3>
-              <p className="text-[#858585] font-extralight">A digital invoice template for designers</p>
+          </Link>
+          <Link target="_blank" to={"https://threescenes.samjs.me"}>
+            <div className="card min-h-[298px]  bg-[#2c2c2c]">
+              <div className="overflow-hidden">
+                <img src={earth} alt="project" className=" hover:scale-110 transition-all" />
+              </div>
+              <div className="p-4 relative">
+                <h3>Three scenes</h3>
+                <p className="text-[#858585] font-extralight">here i implemented 3 threejs 3d scenes</p>
+                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/threescenes"}>
+                  <img
+                  className="w-[26px] h-[26px] "
+                  src={github}
+                  alt="github icon"
+                />
+                </Link>
+              </div>
             </div>
-          </div>
-          <div className="card  bg-[#2c2c2c]">
-            <div className="overflow-hidden">
-              <img src={project} alt="project" className=" hover:scale-110 transition-all" />
-            </div>
-            <div className="p-4">
-              <h3>Billify</h3>
-              <p className="text-[#858585] font-extralight">A digital invoice template for designers</p>
-            </div>
-          </div>
+          </Link>
+          
         </div>
       </div>
       {/* experience */}
       <div className="exp pb-16">
         <h2 className="mt-10  text-lg font-medium">Experiences</h2>
-        <div className="bg1card">
+        <div className="bg1card ">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer Lead - Zemuria.inc <span className="plinks">2023-2024</span></h3>
           <ul className="p1 list-outside p-4 my-0">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et distinctio vitae tempore consectetur aut tempora. Perspiciatis fugiat deserunt fugit soluta, nobis iste, fuga sed eos ab numquam laudantium. Non, inventore.</li>
-            <li>Asperiores modi, alias inventore cum molestiae doloribus accusamus ad recusandae autem fuga. Dignissimos magni, perspiciatis, soluta excepturi et enim obcaecati tempore corrupti dolor eius dolorem, maiores aliquam reprehenderit itaque placeat?</li>
-            <li>Eum voluptate laboriosam quasi qui ad quas voluptas, praesentium voluptatem, reiciendis sed a amet, sit iusto in minus magnam fugit quis libero commodi ipsum sequi temporibus. Veniam rem alias quaerat?</li>
-            <li>Quis cumque ratione enim dolores maxime quibusdam vitae quas corporis maiores aut eos dignissimos nihil quae aliquam rem blanditiis alias quaerat, natus, libero, itaque temporibus? Nisi consequatur iure ea et?</li>
+            <li>Collaborated with the backend teams on the implementation of robust security measures, including JWT authentication and secure session handling.</li>
+            <li><strong>Internal Blog Engine</strong> Developed a feature-rich blog engine with a modern text editor and implemented a polling mechanism and debouncing on the editor, later transforming it into a successful commercial product.</li>
+            <li><strong>Next.js E-commerce Platform Re-architecture:</strong> Rewrote the codebase using Next.js, implementing a scalable multi-tenant architecture and handled server-side logic such as middleware, API design and architecture, route handlers and managing JWT session single-handedly.</li>
+            <li><strong>Implemented Google SSO</strong> Successfully integrated Google Single Sign-On (SSO) into a Next.js application, significantly streamlining user authentication and enhancing security.</li>
           </ul>
         </div>
-        <div className="bg1card ">
+        <div className="bg1card">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer - Zemuria.inc <span className="plinks">2022-2023</span></h3>
           <ul className="p1 list-outside p-4 my-0">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et distinctio vitae tempore consectetur aut tempora. Perspiciatis fugiat deserunt fugit soluta, nobis iste, fuga sed eos ab numquam laudantium. Non, inventore.</li>
-            <li>Asperiores modi, alias inventore cum molestiae doloribus accusamus ad recusandae autem fuga. Dignissimos magni, perspiciatis, soluta excepturi et enim obcaecati tempore corrupti dolor eius dolorem, maiores aliquam reprehenderit itaque placeat?</li>
-            <li>Eum voluptate laboriosam quasi qui ad quas voluptas, praesentium voluptatem, reiciendis sed a amet, sit iusto in minus magnam fugit quis libero commodi ipsum sequi temporibus. Veniam rem alias quaerat?</li>
-            <li>Quis cumque ratione enim dolores maxime quibusdam vitae quas corporis maiores aut eos dignissimos nihil quae aliquam rem blanditiis alias quaerat, natus, libero, itaque temporibus? Nisi consequatur iure ea et?</li>
+            <li>Led and mentored a team of 6 front-end developers, fostering a collaborative and high-performing environment.</li>
+            <li>Successfully trained and upskilled 4 junior developers, empowering them to become proficient contributors.</li>
+            <li><strong>E-commerce Performance Optimization:</strong> Spearheaded a complete redesign and codebase migration, resulting in a 5x improvement in loading speed and enhanced user experience.</li>
+            <li><strong>High-Performance E-commerce Theme Development:</strong> Built a new theme from scratch, achieving exceptional PageSpeed scores and contributing to increased organic sales for clients.</li>
           </ul>
         </div>
       </div>
