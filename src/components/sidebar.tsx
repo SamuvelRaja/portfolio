@@ -212,7 +212,7 @@ const Sidebar = () => {
             <span className="px-1 rounded-sm border border-[#252525]" title="ctrl+8 to navigate">8</span>
           </div>
         </Link>
-        <Link to="https://github.com/SamuvelRaja">
+        <Link target="_blank" to="https://github.com/SamuvelRaja">
           <div className={`navlinks npg `}>
             <div className="flex gap-2 items-center">
               <img
@@ -227,7 +227,7 @@ const Sidebar = () => {
             </span>
           </div>
         </Link>
-        <Link to="https://www.linkedin.com/in/samuvel-raja-10321a220/">
+        <Link target="_blank" to="https://www.linkedin.com/in/samuvel-raja-10321a220/">
           <div className={`navlinks npg `}>
             <div className="flex gap-2 items-center">
               <img
@@ -242,7 +242,7 @@ const Sidebar = () => {
             </span>
           </div>
         </Link>
-        <Link to="https://x.com/the_sam_js">
+        <Link target="_blank" to="https://x.com/the_sam_js">
           <div className={`navlinks npg `}>
             <div className="flex gap-2 items-center">
               <img className="w-[20px] h-[20px]" src={xIcon} alt="x icon" />

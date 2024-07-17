@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom"
-import copyImage from "../assets/copy.svg";
-import Blinker from "@/components/blinker";
-import { useRef } from "react";
+import Blinker from "@/components/blinker"
 import reactImg from "../assets/react.svg"
 import nodeImg from "../assets/node.svg"
 import nextImg from "../assets/nextjs.svg"
@@ -9,15 +7,11 @@ import jsImg from "../assets/js.svg"
 import tailwindImg from "../assets/tailwind.svg"
 import threeImg from "../assets/three.svg"
 import project from "../assets/project.avif"
+import Copy from "@/components/copy"
 
 
 const Explore = () => {
-  const copyRef =useRef<HTMLButtonElement>(null)
-  const copyEmail = async() => {
-    const email = "josephsamuvel001@gmail.com";
-    navigator.clipboard.writeText(email);
-    copyRef.current?copyRef.current.innerText="Copied":"";
-  };
+  
   return (
     <>
       <div>
@@ -32,10 +26,7 @@ const Explore = () => {
         </p>
         <div className="flex gap-6">
           <Link className="btn btn-primary" to={"/contact"}>Connect</Link>
-
-          <button ref={copyRef} className="btn btn-secondary inline-flex gap-2" onClick={copyEmail}>
-            <img  className="w-[18px]" src={copyImage} alt="Copy" /> E-mail
-          </button>
+          <Copy/>
         </div>
       </div>
       {/* stack section */}
