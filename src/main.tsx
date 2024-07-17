@@ -7,10 +7,11 @@ import Explore from './pages/explore.tsx'
 import Projects from './pages/projects.tsx'
 import Services from './pages/services.tsx'
 import Stacks from './pages/stacks.tsx'
-import Journey from './pages/journey.tsx'
+import Journey from './pages/aboutme.tsx'
 import Blogs from './pages/blogs.tsx'
 import Resources from './pages/resources.tsx'
 import Contact from './pages/contact.tsx'
+import Aboutme from './pages/aboutme.tsx'
 
 
 const appRouter=createBrowserRouter([{
@@ -29,8 +30,8 @@ const appRouter=createBrowserRouter([{
     path:"/services",
     element:<Services/>
   },{
-    path:"/journey",
-    element:<Journey/>
+    path:"/aboutme",
+    element:<Aboutme/>
   },{
     path:"/blogs",
     element:<Blogs/>

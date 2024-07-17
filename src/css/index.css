@@ -106,6 +106,9 @@
     .p1{
       @apply text-[#858585] text-[16px] my-6
     }
+    .psm{
+      @apply text-[#858585] text-[14px] my-6
+    }
     .navlinks.npg img{
       filter: brightness(0) saturate(100%) invert(47%) sepia(92%) saturate(0%) hue-rotate(203deg) brightness(93%) contrast(97%);
     }

@@ -7,7 +7,7 @@ const Resources = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           <div className="card  bg-[#2c2c2c]">
             <div className="overflow-hidden">
-              <iframe width="414" height="232" src="https://www.youtube.com/embed/pN6jk0uUrD8?si=qNmt0X0SW7osXDxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="414" height="232" src="https://www.youtube.com/embed/pN6jk0uUrD8?si=qNmt0X0SW7osXDxK" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullscreen></iframe>
             </div>
             <div className="p-4">
               <h3>Namaste javaScript</h3>
@@ -16,7 +16,7 @@ const Resources = () => {
           </div>
           <div className="card  bg-[#2c2c2c]">
             <div className="overflow-hidden">
-              <iframe width="414" height="232" src="https://www.youtube.com/embed/cCOL7MC4Pl0?si=ea-zHPm-pZEsVBgz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="414" height="232" src="https://www.youtube.com/embed/cCOL7MC4Pl0?si=ea-zHPm-pZEsVBgz" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullscreen></iframe>
             </div>
             <div className="p-4">
               <h3>Understanding Event Loop</h3>
@@ -25,7 +25,7 @@ const Resources = () => {
           </div>
           <div className="card  bg-[#2c2c2c]">
             <div className="overflow-hidden">
-              <iframe width="414" height="232" src="https://www.youtube.com/embed/cCOL7MC4Pl0?si=ea-zHPm-pZEsVBgz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="414" height="232" src="https://www.youtube.com/embed/cCOL7MC4Pl0?si=ea-zHPm-pZEsVBgz" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullscreen></iframe>
             </div>
             <div className="p-4">
               <h3>Understanding Event Loop</h3>

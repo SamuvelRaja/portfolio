@@ -27,8 +27,8 @@ const Sidebar = () => {
                 <Link to="/">
                     <div className={`navlinks  ${location.pathname=="/"?'active':'npg'}  `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src={aboutIcon} alt="about icon" />
-                            <p>About me</p>
+                            <img className="w-[24px] h-[24px]" src={exploreIcon} alt="explore icon" />
+                            <p>Explore</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">1</span>
                     </div>
@@ -60,11 +60,11 @@ const Sidebar = () => {
                         <span className="px-1 rounded-sm border border-[#252525]">4</span>
                     </div>
                 </Link>
-                <Link to="/journey">
-                    <div className={`navlinks ${location.pathname=="/journey"?'active':'npg'}   `}>
+                <Link to="/aboutme">
+                    <div className={`navlinks ${location.pathname=="/aboutme"?'active':'npg'}   `}>
                         <div className="flex gap-2 items-center">
-                            <img className="w-[24px] h-[24px]" src={exploreIcon} alt="exlore icon" />
-                            <p>Journey</p>
+                            <img className="w-[24px] h-[24px]" src={aboutIcon} alt="about icon" />
+                            <p>About me</p>
                         </div>
                         <span className="px-1 rounded-sm border border-[#252525]">5</span>
                     </div>
