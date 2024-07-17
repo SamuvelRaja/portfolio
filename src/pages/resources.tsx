@@ -1,10 +1,10 @@
 
 const Resources = () => {
   return (
-    <div>
+    <div className="pb-16">
       <h1 className="title">Resources</h1>
       <p className="p2 mt-2 mb-12">Im a firm of knowledge sharing here Im sharing the resources that made better</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 pb-8">
           <div className="card  bg-[#2c2c2c]">
             <div className="overflow-hidden">
               <iframe width="414" height="232" src="https://www.youtube.com/embed/pN6jk0uUrD8?si=qNmt0X0SW7osXDxK" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullscreen></iframe>

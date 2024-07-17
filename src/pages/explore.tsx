@@ -22,7 +22,7 @@ const Explore = () => {
           I'm a Frontend Developer, I can build webapps with good looking user interfaces and awesome functionalities,
           i can also work on backend technologies like nodejs and expressjs
           worked on various products of different domains, take a look on my <Link className="plinks" to={"/projects"}>projects &#8599;</Link> and
-          reach out to me <Link className="plinks" to={"/contact"}>here &#8599;</Link>
+          reach out to me.
         </p>
         <div className="flex gap-6">
           <Link className="btn btn-primary" to={"/contact"}>Connect</Link>
@@ -98,7 +98,7 @@ const Explore = () => {
       {/* projects */}
       <div>
         <h2 className="mt-10 mb-4 text-lg font-medium">Projects</h2>
-        <div className="flex gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <div className="card  bg-[#2c2c2c]">
             <div className="overflow-hidden">
               <img src={project} alt="project" className=" hover:scale-110 transition-all" />
@@ -120,7 +120,7 @@ const Explore = () => {
         </div>
       </div>
       {/* experience */}
-      <div className="exp">
+      <div className="exp pb-16">
         <h2 className="mt-10  text-lg font-medium">Experiences</h2>
         <div className="bg1card">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer Lead - Zemuria.inc <span className="plinks">2023-2024</span></h3>
@@ -131,7 +131,7 @@ const Explore = () => {
             <li>Quis cumque ratione enim dolores maxime quibusdam vitae quas corporis maiores aut eos dignissimos nihil quae aliquam rem blanditiis alias quaerat, natus, libero, itaque temporibus? Nisi consequatur iure ea et?</li>
           </ul>
         </div>
-        <div className="bg1card">
+        <div className="bg1card ">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer - Zemuria.inc <span className="plinks">2022-2023</span></h3>
           <ul className="p1 list-outside p-4 my-0">
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et distinctio vitae tempore consectetur aut tempora. Perspiciatis fugiat deserunt fugit soluta, nobis iste, fuga sed eos ab numquam laudantium. Non, inventore.</li>

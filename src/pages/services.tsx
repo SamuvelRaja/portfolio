@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Services = () => {
   return (
-    <div>
+    <div className="pb-16">
         <h1 className="title">Services</h1>
         <p className="p2 mt-2">I craft unique websites, web apps, and engaging landing pages with HTML, CSS, JavaScript, React, and Next.js,  delivering standout digital experiences tailored to your unique business needs.</p>
         <Link 

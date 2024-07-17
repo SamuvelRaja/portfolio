@@ -7,7 +7,7 @@ import linked from "../assets/linked.svg"
 
 const Contact = () => {
   return (
-    <div>
+    <div className="pb-16">
       <h1 className="title">Contact</h1>
       <p className="p2 mt-2 mb-12">
         Need a hand in any web dev related stuffs feel free to contact me

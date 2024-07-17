@@ -2,13 +2,13 @@ import sam from "/public/images/samimg.webp"
 
 const Aboutme = () => {
   return (
-    <div>
+    <div className="pb-16">
       <h1 className="title">About Sam</h1>
       <p className="psm mt-2 mb-12">
         Hi, I’m Sam, a curious tech enthusiast from a small fishing village near Pondicherry. I graduated with a Bachelor’s degree in Information Technology from Dhanalakshmi Srinivasan College in Mamallapuram. My college experience was largely shaped by the COVID-19 pandemic, during which I spent a lot of time exploring and learning new things on my own
       </p>
       <div>
-        <img src={sam} alt="sam.js image" title="samjs"  className="max-w-[400px] mb-8 rounded-[6px] "/>
+        <img src={sam} alt="sam.js image" title="samjs"  className="w-full max-w-[400px] mb-8 rounded-[6px] "/>
       </div>
       <p className="psm mt-2 ">
         With a government-provided laptop and internet access, I began blogging about technology and learning programming languages like C and Java. My initial goal was to earn enough through blogging to buy a better laptop for coding. However, by my final year, I realized that blogging alone wouldn’t suffice. This led me to discover freeCodeCamp, where I immersed myself in frontend development, particularly enjoying the process of learning React.

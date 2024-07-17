@@ -6,7 +6,7 @@ const Projects = () => {
     <div>
         <div>
         <h2 className="title">Projects</h2>
-        <div className="flex gap-8 mt-8">
+        <div className="flex flex-col md:flex-row gap-8 mt-8">
           <div className="card  bg-[#2c2c2c]">
             <div className="overflow-hidden">
               <img src={project} alt="project" className=" hover:scale-110 transition-all" />

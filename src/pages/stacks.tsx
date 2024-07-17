@@ -28,7 +28,7 @@ import zod from "../assets/zod.svg"
 
 const Stacks = () => {
   return (
-    <div>
+    <div className="pb-16">
       <h1 className="title">Stack</h1>
         <p className="p2 mt-1">Tools and technologies that i work on</p>
         <div className="card p-6 mt-10 ">
