@@ -11,6 +11,7 @@ import githubIcon from "/src/assets/git.svg";
 import linkedinIcon from "/src/assets/linkedin.svg";
 import xIcon from "/src/assets/x.svg";
 import { useEffect } from "react";
+import samprofile from "/public/images/sam-profile.jpeg"
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -54,11 +55,11 @@ const Sidebar = () => {
     };
   }, []);
   return (
-    <nav className=" w-full overflow-x-scroll float-left md:flex-col flex bg-[#1c1c1c] md:p-4 md:w-[240px] lg:h-screen fixed bottom-0 md:top-0 border-r-[#252525] border-r-[1px]">
+    <nav className=" w-full overflow-x-scroll md:overflow-auto float-left md:flex-col flex bg-[#1c1c1c] md:p-4 md:w-[240px] md:h-screen fixed bottom-0 md:top-0 border-r-[#252525] border-r-[1px]">
       <div className="flex items-center profile gap-2  md:mt-2 fixed top-0 left-0 bg-[#1c1c1c] w-full  p-3 md:relative md:bg-inherit ">
         <img
           className="rounded-full w-[40px] h-[40px]"
-          src="/public/images/sam-profile.jpeg"
+          src={samprofile}
           alt="samjs picture"
           title="samjs picture"
         />
