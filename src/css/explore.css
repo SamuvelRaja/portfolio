@@ -1,8 +1,6 @@
 .typewriter {
-  display: inline;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 4px solid grey;
 }
 
 .cursor {

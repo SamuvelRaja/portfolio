@@ -15,9 +15,9 @@ const Explore = () => {
   return (
     <>
       <div>
-        <h1 className="title">
+        <h1 className="title ">
           Hey, I'm Sam.js, <br /> I code <Blinker texts={["FrontEnd", "Backend", "Middlewares", "Whatever..."]} />
-          <br /> with <span className="text-[#858585]">javaScript</span></h1>
+          with <span className="text-[#858585]">javaScript</span></h1>
         <p className="p2">
           I'm a Frontend Developer, I can build webapps with good looking user interfaces and awesome functionalities,
           i can also work on backend technologies like nodejs and expressjs

@@ -80,7 +80,7 @@
       @apply bg-[rgb(44,44,44)] text-[15px] py-[2px] px-2 border border-[#393939] text-[#858585] rounded-[6px]
     }
     .btn{
-      @apply py-2 px-6 rounded-[6px] border text-[#fff] cursor-pointer
+      @apply py-2 px-6 rounded-[6px] border text-[#fff] cursor-pointer whitespace-nowrap
     }
     .btn:hover{
       opacity: 0.65;
@@ -98,7 +98,7 @@
       @apply card mt-6 mb-12 p-6 bg-[#1c1c1c]
     }
     .title{
-    @apply text-5xl pt-20 text-white font-medium leading-[1.20]
+    @apply text-[40px] md:text-5xl pt-20 text-white font-medium leading-[1.20]
     }
     .p2{
       @apply text-[#858585] text-[18px] my-6

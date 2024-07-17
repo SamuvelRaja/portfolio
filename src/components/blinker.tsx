@@ -36,9 +36,9 @@ const Blinker = ({texts}:any) => {
   }, [blink]);
 
   return (
-    <div className="typewriter my-1">
+    <div className="typewriter my-1 block ">
       <span>{`${texts[index].substring(0, subIndex)}`}</span>
-      <span className="cursor">{blink ? "|" : " "}</span>
+      <span className="cursor"> {blink ? "|" : " "}</span>
     </div>
   );
 };
