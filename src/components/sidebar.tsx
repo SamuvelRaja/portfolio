@@ -11,7 +11,7 @@ import githubIcon from "/src/assets/git.svg";
 import linkedinIcon from "/src/assets/linkedin.svg";
 import xIcon from "/src/assets/x.svg";
 import { useEffect } from "react";
-import samprofile from "/public/images/sam-profile.jpeg"
+import samprofile from "/images/sam-profile.jpeg"
 
 const Sidebar = () => {
   const navigate = useNavigate();

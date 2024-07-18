@@ -6,10 +6,10 @@ import nextImg from "../assets/nextjs.svg"
 import jsImg from "../assets/js.svg"
 import tailwindImg from "../assets/tailwind.svg"
 import threeImg from "../assets/three.svg"
-import earth from "/public/images/earth.webp"
+import earth from "/images/earth.webp"
 import github from "../assets/git.svg"
 import Copy from "@/components/copy"
-import apple from "/public/images/apple.webp"
+import apple from "/images/apple.webp"
 
 const Explore = () => {
   
@@ -99,7 +99,8 @@ const Explore = () => {
       {/* projects */}
       <div>
         <h2 className="mt-10 mb-4 text-lg font-medium">Projects</h2>
-        <div className="flex flex-col lg:flex-row gap-8 mt-8">
+        <div className="card p-4 mt-8">
+        <div className="flex flex-col lg:flex-row gap-4  ">
           <Link target="_blank" to={"https://iphone.samjs.me"}>
             <div className="card min-h-[298px]  bg-[#2c2c2c]">
               <div className="overflow-hidden">
@@ -136,7 +137,8 @@ const Explore = () => {
               </div>
             </div>
           </Link>
-          
+        </div>
+        <Link to={"/projects"} className="btn btn-primary hover:underline p-2 mt-4 text-center block">View All</Link>
         </div>
       </div>
       {/* experience */}
