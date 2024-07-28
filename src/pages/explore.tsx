@@ -6,10 +6,10 @@ import nextImg from "../assets/nextjs.svg"
 import jsImg from "../assets/js.svg"
 import tailwindImg from "../assets/tailwind.svg"
 import threeImg from "../assets/three.svg"
-import earth from "/images/earth.webp"
 import github from "../assets/git.svg"
 import Copy from "@/components/copy"
-import apple from "/images/apple.webp"
+import apple from "/images/iapple.webp"
+import vibe from "/images/vibe.webp"
 
 const Explore = () => {
   
@@ -101,10 +101,28 @@ const Explore = () => {
         <h2 className="mt-10 mb-4 text-lg font-medium">Projects</h2>
         <div className="card p-4 mt-8">
         <div className="flex flex-col lg:flex-row gap-4  ">
-          <Link target="_blank" to={"https://iphone.samjs.me"}>
+          <Link target="_blank" to={"https://vibe.samjs.me"} className="lg:w-1/2">
             <div className="card min-h-[298px]  bg-[#2c2c2c]">
               <div className="overflow-hidden">
-                <img src={apple} alt="project" className=" hover:scale-110 transition-all" />
+                <img src={vibe} alt="project" className=" hover:scale-110 transition-all " />
+              </div>
+              <div className="p-4 relative">
+                <h3>spotified(vibe)</h3>
+                <p className="text-[#858585] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
+                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/spotified"}>
+                  <img
+                  className="w-[26px] h-[26px] "
+                  src={github}
+                  alt="github icon"
+                />
+                </Link>
+              </div>
+            </div>
+          </Link>
+          <Link target="_blank" to={"https://iphone.samjs.me"} className="lg:w-1/2">
+            <div className="card min-h-[298px]  bg-[#2c2c2c]">
+              <div className="overflow-hidden">
+                <img src={apple} alt="project" className=" hover:scale-110 transition-all " />
               </div>
               <div className="p-4 relative">
                 <h3>iphone 3d and animation replica</h3>
@@ -119,24 +137,7 @@ const Explore = () => {
               </div>
             </div>
           </Link>
-          <Link target="_blank" to={"https://threescenes.samjs.me"}>
-            <div className="card min-h-[298px]  bg-[#2c2c2c]">
-              <div className="overflow-hidden">
-                <img src={earth} alt="project" className=" hover:scale-110 transition-all" />
-              </div>
-              <div className="p-4 relative">
-                <h3>Three scenes</h3>
-                <p className="text-[#858585] font-extralight">here i implemented 3 threejs 3d scenes</p>
-                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/threescenes"}>
-                  <img
-                  className="w-[26px] h-[26px] "
-                  src={github}
-                  alt="github icon"
-                />
-                </Link>
-              </div>
-            </div>
-          </Link>
+          
         </div>
         <Link to={"/projects"} className="btn btn-primary hover:underline p-2 mt-4 text-center block">View All</Link>
         </div>

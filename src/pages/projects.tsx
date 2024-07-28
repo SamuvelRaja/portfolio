@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom"
-import apple from "/images/apple.webp"
+import apple from "/images/iapple.webp"
+import vibe from "/images/vibe.webp"
 import earth from "/images/earth.webp"
 import baker from "/images/baker.webp"
 import github from "../assets/git.svg"
@@ -10,8 +11,26 @@ const Projects = () => {
     <div className="pb-16">
         <div>
         <h2 className="title">Projects</h2>
-        <h3 className="p-2 mt-8 mb-4">Personal projects</h3>
-        <div className="flex flex-col md:flex-row gap-8 ">
+        <h3 className="p-2 mt-8 mb-4 text-[16px] font-semibold">Personal projects</h3>
+        <div className="grid grid-cols-2 flex-wrap gap-8 ">
+          <Link target="_blank" to={"https://vibe.samjs.me"} >
+            <div className="card min-h-[298px]  bg-[#2c2c2c]">
+              <div className="overflow-hidden">
+                <img src={vibe} alt="project" className=" hover:scale-110 transition-all " />
+              </div>
+              <div className="p-4 relative">
+                <h3>spotified(vibe)</h3>
+                <p className="text-[#858585] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
+                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/spotified"}>
+                  <img
+                  className="w-[26px] h-[26px] "
+                  src={github}
+                  alt="github icon"
+                />
+                </Link>
+              </div>
+            </div>
+          </Link>
           <Link target="_blank" to={"https://iphone.samjs.me"}>
             <div className="card min-h-[200px] md:min-h-[298px] bg-[#2c2c2c]">
               <div className="overflow-hidden">
@@ -37,7 +56,7 @@ const Projects = () => {
               </div>
               <div className="p-4 relative">
                 <h3>Three scenes</h3>
-                <p className="text-[#858585] font-extralight">here i implemented 3 threejs 3d scenes</p>
+                <p className="text-[#858585] font-extralight">here i implemented 3 interactive 3d designs with threejs 3d scenes</p>
                 <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/threescenes"}>
                   <img
                   className="w-[26px] h-[26px] "
@@ -49,7 +68,7 @@ const Projects = () => {
             </div>
           </Link>
         </div>
-        <h3 className="p-2 mt-8 mb-4">Freelance projects</h3>
+        <h3 className="p-2 mt-8 mb-4 text-[16px] font-semibold">Freelance projects</h3>
         <div className="flex flex-col  md:flex-row gap-8  pb-4">
           <Link target="_blank" to={"https://abakersconfession.co.uk/"}>
             <div className="card min-h-[200px] md:min-h-[298px] bg-[#2c2c2c] max-w-[414px] mx-auto mb-8">
