@@ -12,7 +12,7 @@ const Projects = () => {
         <div>
         <h2 className="title">Projects</h2>
         <h3 className="p-2 mt-8 mb-4 text-[16px] font-semibold">Personal projects</h3>
-        <div className="grid grid-cols-2 flex-wrap gap-8 ">
+        <div className="grid lg:grid-cols-2 flex-wrap gap-8 ">
           <Link target="_blank" to={"https://vibe.samjs.me"} >
             <div className="card min-h-[298px]  bg-[#2c2c2c]">
               <div className="overflow-hidden">
