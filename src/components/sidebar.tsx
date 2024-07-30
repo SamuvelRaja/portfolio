@@ -55,7 +55,7 @@ const Sidebar = () => {
     };
   }, []);
   return (
-    <nav className=" w-full overflow-x-scroll md:overflow-auto float-left md:flex-col flex bg-[#1c1c1c] md:p-4 md:w-[240px] md:h-screen fixed bottom-0 md:top-0 border-r-[#252525] border-r-[1px]">
+    <nav className=" w-full overflow-x-scroll md:overflow-auto float-left md:flex-col flex bg-[#1c1c1c] md:p-4 md:w-[240px] md:h-screen fixed z-50 bottom-0 md:top-0 border-r-[#252525] border-r-[1px]">
       <div className="flex items-center profile gap-2  md:mt-2 fixed top-0 left-0 bg-[#1c1c1c] w-full  p-3 md:relative md:bg-inherit ">
         <img
           className="rounded-full w-[40px] h-[40px]"
