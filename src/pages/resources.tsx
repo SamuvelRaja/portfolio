@@ -19,7 +19,7 @@ const Resources = () => {
             </div>
             <div className="p-4">
               <h3>Namaste JavaScript</h3>
-              <p className="text-[#858585] font-extralight">Deep dive into JavaScript with Akshay Saini</p>
+              <p className="text-[#bababa] font-extralight">Deep dive into JavaScript with Akshay Saini</p>
             </div>
           </div>
           <div className="card bg-[#2c2c2c]">
@@ -36,7 +36,7 @@ const Resources = () => {
             </div>
             <div className="p-4">
               <h3>Understanding Event Loop</h3>
-              <p className="text-[#858585] font-extralight">Event Loop masterclass by Jake Archibald</p>
+              <p className="text-[#bababa] font-extralight">Event Loop masterclass by Jake Archibald</p>
             </div>
           </div>
         </div>

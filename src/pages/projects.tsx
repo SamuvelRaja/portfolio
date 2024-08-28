@@ -20,7 +20,7 @@ const Projects = () => {
               </div>
               <div className="p-4 relative">
                 <h3>spotified(vibe)</h3>
-                <p className="text-[#858585] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
+                <p className="text-[#bababa] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
                 <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/spotified"}>
                   <img
                   className="w-[26px] h-[26px] "
@@ -38,7 +38,7 @@ const Projects = () => {
               </div>
               <div className="p-4 relative">
                 <h3>iphone 3d and animation replica</h3>
-                <p className="text-[#858585] font-extralight">This project is a iphone landing page replica mainly focusing on recreating animations and iphone 3d model</p>
+                <p className="text-[#bababa] font-extralight">This project is a iphone landing page replica mainly focusing on recreating animations and iphone 3d model</p>
                 <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/passionfruit-appleclone-"}>
                   <img
                   className="w-[26px] h-[26px] "
@@ -56,7 +56,7 @@ const Projects = () => {
               </div>
               <div className="p-4 relative">
                 <h3>Three scenes</h3>
-                <p className="text-[#858585] font-extralight">here i implemented 3 interactive 3d designs with threejs 3d scenes</p>
+                <p className="text-[#bababa] font-extralight">here i implemented 3 interactive 3d designs with threejs 3d scenes</p>
                 <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/threescenes"}>
                   <img
                   className="w-[26px] h-[26px] "
@@ -77,7 +77,7 @@ const Projects = () => {
               </div>
               <div className="p-4 relative">
                 <h3>Baker's Portfolio </h3>
-                <p className="text-[#858585] font-extralight">This is the portfolio website of my client from UK</p>
+                <p className="text-[#bababa] font-extralight">This is the portfolio website of my client from UK</p>
                 <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/threescenes"}>
                   <img
                   className="w-[26px] h-[26px] "

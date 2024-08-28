@@ -18,7 +18,7 @@ const Explore = () => {
       <div>
         <h1 className="title ">
           Hey, I'm Sam.js, <br /> I code <Blinker texts={["FrontEnd", "Backend", "Middlewares", "Whatever..."]} />
-          with <span className="text-[#858585]">javaScript</span></h1>
+          with <span className="text-[#bababa]">javaScript</span></h1>
         <p className="p2">
           I'm a Frontend Developer, I can build webapps with good looking user interfaces and awesome functionalities,
           i can also work on backend technologies like nodejs and expressjs
@@ -34,13 +34,13 @@ const Explore = () => {
       <div>
         <div className="card p-6 mt-10 ">
           <h2 className="mt-2 text-lg font-medium">Stack</h2>
-          <p className="text-[#858585] my-4">Tools and technologies that i work on</p>
+          <p className="text-[#bababa] my-4">Tools and technologies that i work on</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <div className="flex p-[6px] border hover:border-[#393939] border-transparent rounded-sm hover:bg-[#2c2c2c]">
               <img className="w-[40px]" src={jsImg} alt="js icon" />
               <div className="ml-2">
                 <h3 className="font-normal">JavaScript</h3>
-                <p className="text-[#858585] font-extralight">
+                <p className="text-[#bababa] font-extralight">
                   programming Language
                 </p>
               </div>
@@ -49,7 +49,7 @@ const Explore = () => {
               <img className="w-[40px]" src={reactImg} alt="react icon" />
               <div className="ml-2">
                 <h3 className="font-normal">React.js</h3>
-                <p className="text-[#858585] font-extralight">
+                <p className="text-[#bababa] font-extralight">
                   a Front-End library
                 </p>
               </div>
@@ -58,7 +58,7 @@ const Explore = () => {
                 <img className="w-[40px]" src={nextImg} alt="next icon" />
                 <div className="ml-2">
                   <h3 className="font-normal">Next.js</h3>
-                  <p className="text-[#858585] font-extralight">
+                  <p className="text-[#bababa] font-extralight">
                     a react framework
                   </p>
                 </div>
@@ -67,7 +67,7 @@ const Explore = () => {
                 <img className="w-[40px]" src={nodeImg} alt="node icon" />
                 <div className="ml-2">
                   <h3 className="font-normal">Node.js</h3>
-                  <p className="text-[#858585] font-extralight">
+                  <p className="text-[#bababa] font-extralight">
                     backend javaScript runtime
                   </p>
                 </div>
@@ -76,7 +76,7 @@ const Explore = () => {
                 <img className="w-[40px]" src={tailwindImg} alt="tailwind icon" />
                 <div className="ml-2">
                   <h3 className="font-normal">Tailwind</h3>
-                  <p className="text-[#858585] font-extralight">
+                  <p className="text-[#bababa] font-extralight">
                     a css library
                   </p>
                 </div>
@@ -85,7 +85,7 @@ const Explore = () => {
                 <img className="w-[40px]" src={threeImg} alt="threejs icon" />
                 <div className="ml-2">
                   <h3 className="font-normal">Three.js</h3>
-                  <p className="text-[#858585] font-extralight">
+                  <p className="text-[#bababa] font-extralight">
                     a 3d graphics library
                   </p>
                 </div>
@@ -108,7 +108,7 @@ const Explore = () => {
               </div>
               <div className="p-4 relative">
                 <h3>spotified(vibe)</h3>
-                <p className="text-[#858585] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
+                <p className="text-[#bababa] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
                 <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/spotified"}>
                   <img
                   className="w-[26px] h-[26px] "
@@ -126,7 +126,7 @@ const Explore = () => {
               </div>
               <div className="p-4 relative">
                 <h3>iphone 3d and animation replica</h3>
-                <p className="text-[#858585] font-extralight">This project is a iphone landing page replica mainly focusing on recreating animations and iphone 3d model</p>
+                <p className="text-[#bababa] font-extralight">This project is a iphone landing page replica mainly focusing on recreating animations and iphone 3d model</p>
                 <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/passionfruit-appleclone-"}>
                   <img
                   className="w-[26px] h-[26px] "

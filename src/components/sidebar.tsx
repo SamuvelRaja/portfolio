@@ -65,7 +65,7 @@ const Sidebar = () => {
         />
         <div>
           <h2 className="text-[#fff] font-semibold text-sm mt-1">Samuvel Raja</h2>
-          <p className=" font-extralight text-sm text-[#858585]">
+          <p className=" font-extralight text-sm text-[#bababa]">
             FrontEnd Developer
           </p>
         </div>
@@ -158,7 +158,7 @@ const Sidebar = () => {
         </Link>
       </div>
       <div className="nav-1 whitespace-nowrap py-2  gap-2 md:gap-0 md:mt-4 flex md:flex-col">
-        <p className="font-light text-[12px] p-3 text-[#858585] hidden md:block">Goodreads</p>
+        <p className="font-light text-[12px] p-3 text-[#bababa] hidden md:block">Goodreads</p>
         <Link to="/resources">
           <div
             className={`navlinks ${
@@ -195,7 +195,7 @@ const Sidebar = () => {
         </Link>
       </div>
       <div className="nav-1 whitespace-nowrap py-2  gap-2 md:gap-0 md:mt-4 flex md:flex-col">
-        <p className="font-light text-[12px] p-3 text-[#858585] hidden md:block">connect</p>
+        <p className="font-light text-[12px] p-3 text-[#bababa] hidden md:block">connect</p>
         <Link to="/contact">
           <div
             className={`navlinks  ${
