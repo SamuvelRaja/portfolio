@@ -8,8 +8,9 @@ import tailwindImg from "../assets/tailwind.svg"
 import threeImg from "../assets/three.svg"
 import github from "../assets/git.svg"
 import Copy from "@/components/copy"
-import apple from "/images/iapple.webp"
-import vibe from "/images/vibe.webp"
+import apple from "/images/project3.webp"
+import vibe from "/images/project1.webp"
+import proYT from "/images/project2.webp"
 
 const Explore = () => {
   
@@ -30,10 +31,74 @@ const Explore = () => {
           <Copy/>
         </div>
       </div>
+      {/* projects */}
+      <div>
+        <h2 className="mt-10 mb-4 text-xl font-medium">Projects</h2>
+        <div className=" p-4  mt-8">
+        <div className="flex flex-col lg:flex-row flex-wrap gap-8 ">
+          <Link target="_blank" to={"https://vibe.samjs.me"} className="lg:w-[calc(50%-16px)]">
+            <div className="card min-h-[298px]  bg-[#2c2c2c]">
+              <div className="overflow-hidden">
+                <img src={vibe} alt="project" className=" hover:scale-110 transition-all " />
+              </div>
+              <div className="px-4 py-5 relative">
+                <h3 className="text-base font-semibold mb-2">spotified(vibe)</h3>
+                <p className="text-[#bababa] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
+                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/spotified"}>
+                  <img
+                  className="w-[26px] h-[26px] "
+                  src={github}
+                  alt="github icon"
+                />
+                </Link>
+              </div>
+            </div>
+          </Link>
+          <Link target="_blank" to={"https://github.com/SamuvelRaja/proyt"} className="lg:w-[calc(50%-16px)]">
+            <div className="card min-h-[298px]  bg-[#2c2c2c]">
+              <div className="overflow-hidden">
+                <img src={proYT} alt="project" className=" hover:scale-110 transition-all " />
+              </div>
+              <div className="px-4 py-5 relative">
+                <h3 className="text-base font-semibold mb-2">ProYT (chrome extension)</h3>
+                <p className="text-[#bababa] font-extralight">An chrome extension that detoxifies YouTube by filtering the feed</p>
+                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/proyt"}>
+                  <img
+                  className="w-[26px] h-[26px] "
+                  src={github}
+                  alt="github icon"
+                />
+                </Link>
+              </div>
+            </div>
+          </Link>
+          <Link target="_blank" to={"https://iphone.samjs.me"} className="lg:w-[calc(50%-16px)]">
+            <div className="card min-h-[298px]  bg-[#2c2c2c]">
+              <div className="overflow-hidden">
+                <img src={apple} alt="project" className=" hover:scale-110 transition-all " />
+              </div>
+              <div className="px-4 py-5 relative">
+                <h3 className="text-base font-semibold mb-2">iphone 3d and animation replica</h3>
+                <p className="text-[#bababa] font-extralight">This project is a iphone landing page replica mainly focusing on recreating animations and iphone 3d model</p>
+                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/passionfruit-appleclone-"}>
+                  <img
+                  className="w-[26px] h-[26px] "
+                  src={github}
+                  alt="github icon"
+                />
+                </Link>
+              </div>
+            </div>
+          </Link>
+          
+        </div>
+        <Link to={"/projects"} className="btn btn-primary hover:underline p-2 mt-4 text-center block">View All</Link>
+        </div>
+      </div>
       {/* stack section */}
       <div>
         <div className="card p-6 mt-10 ">
-          <h2 className="mt-2 text-lg font-medium">Stack</h2>
+          <h2 className="mt-2 text-xl font-medium">Stack</h2>
           <p className="text-[#bababa] my-4">Tools and technologies that i work on</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             <div className="flex p-[6px] border hover:border-[#393939] border-transparent rounded-sm hover:bg-[#2c2c2c]">
@@ -96,55 +161,10 @@ const Explore = () => {
           </Link>
         </div>
       </div>
-      {/* projects */}
-      <div>
-        <h2 className="mt-10 mb-4 text-lg font-medium">Projects</h2>
-        <div className="card p-4 mt-8">
-        <div className="flex flex-col lg:flex-row gap-4  ">
-          <Link target="_blank" to={"https://vibe.samjs.me"} className="lg:w-1/2">
-            <div className="card min-h-[298px]  bg-[#2c2c2c]">
-              <div className="overflow-hidden">
-                <img src={vibe} alt="project" className=" hover:scale-110 transition-all " />
-              </div>
-              <div className="p-4 relative">
-                <h3>spotified(vibe)</h3>
-                <p className="text-[#bababa] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
-                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/spotified"}>
-                  <img
-                  className="w-[26px] h-[26px] "
-                  src={github}
-                  alt="github icon"
-                />
-                </Link>
-              </div>
-            </div>
-          </Link>
-          <Link target="_blank" to={"https://iphone.samjs.me"} className="lg:w-1/2">
-            <div className="card min-h-[298px]  bg-[#2c2c2c]">
-              <div className="overflow-hidden">
-                <img src={apple} alt="project" className=" hover:scale-110 transition-all " />
-              </div>
-              <div className="p-4 relative">
-                <h3>iphone 3d and animation replica</h3>
-                <p className="text-[#bababa] font-extralight">This project is a iphone landing page replica mainly focusing on recreating animations and iphone 3d model</p>
-                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/passionfruit-appleclone-"}>
-                  <img
-                  className="w-[26px] h-[26px] "
-                  src={github}
-                  alt="github icon"
-                />
-                </Link>
-              </div>
-            </div>
-          </Link>
-          
-        </div>
-        <Link to={"/projects"} className="btn btn-primary hover:underline p-2 mt-4 text-center block">View All</Link>
-        </div>
-      </div>
+      
       {/* experience */}
       <div className="exp pb-16">
-        <h2 className="mt-10  text-lg font-medium">Experiences</h2>
+        <h2 className="mt-10  text-xl font-medium">Experiences</h2>
         <div className="bg1card ">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer Lead - Zemuria.inc <span className="plinks">2023-2024</span></h3>
           <ul className="p1 list-outside p-4 my-0">

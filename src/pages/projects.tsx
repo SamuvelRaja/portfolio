@@ -1,9 +1,10 @@
 
 import { Link } from "react-router-dom"
-import apple from "/images/iapple.webp"
-import vibe from "/images/vibe.webp"
-import earth from "/images/earth.webp"
+import apple from "/images/project3.webp"
+import vibe from "/images/project1.webp"
+import earth from "/images/project4.webp"
 import baker from "/images/baker.webp"
+import proYT from "/images/project2.webp"
 import github from "../assets/git.svg"
 
 const Projects = () => {
@@ -22,6 +23,24 @@ const Projects = () => {
                 <h3>spotified(vibe)</h3>
                 <p className="text-[#bababa] font-extralight">used spotify's web API with react redux & node to build a fully functional music App</p>
                 <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/spotified"}>
+                  <img
+                  className="w-[26px] h-[26px] "
+                  src={github}
+                  alt="github icon"
+                />
+                </Link>
+              </div>
+            </div>
+          </Link>
+          <Link target="_blank" to={"https://github.com/SamuvelRaja/proyt"} >
+            <div className="card min-h-[298px]   bg-[#2c2c2c]">
+              <div className="overflow-hidden">
+                <img src={proYT} alt="project" className=" hover:scale-110 transition-all " />
+              </div>
+              <div className="p-4 relative">
+                <h3>ProYT (chrome extension)</h3>
+                <p className="text-[#bababa] font-extralight">An chrome extension that detoxifies YouTube by filtering the feed</p>
+                <Link target="_blank" className=" absolute top-3 right-2 hover:scale-110" to={"https://github.com/SamuvelRaja/proyt"}>
                   <img
                   className="w-[26px] h-[26px] "
                   src={github}
