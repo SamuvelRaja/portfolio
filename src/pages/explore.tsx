@@ -34,6 +34,9 @@ const Explore = () => {
       {/* projects */}
       <div>
         <h2 className="mt-10 mb-4 text-xl font-medium">Projects</h2>
+        <p className="p2 mb-4">
+          These are my projects that deployed to ubuntu server by me, I configured the custom domain, SSL and done subdomain integration with help of Nginx
+        </p>
         <div className=" p-4  mt-8">
         <div className="flex flex-col lg:flex-row flex-wrap gap-8 ">
           <Link target="_blank" to={"https://vibe.samjs.me"} className="lg:w-[calc(50%-16px)]">
