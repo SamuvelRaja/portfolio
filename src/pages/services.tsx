@@ -79,8 +79,8 @@ const Services = () => {
             <li>Building dynamic and interactive web apps.</li>
             <li>Modern React and Next.js applications.</li>
           </ul>
-          <h3 className="p-2 mt-8 mb-4 text-lg font-semibold">modern webapps</h3>
-          <div className="flex flex-col  md:flex-row gap-8  pb-4">
+          <h3 className="p-2 mt-8 mb-4 text-lg font-semibold">webapp examples</h3>
+          <div className="flex flex-col  md:flex-row gap-8  pb-4 mb-4">
             <Link target="_blank" to={"https://vibe.samjs.me"} >
               <div className="card min-h-[298px]  bg-[#2c2c2c]">
                 <div className="overflow-hidden">
@@ -122,7 +122,7 @@ const Services = () => {
         target="_blank" to={`mailto:josephsamuvel001@gmail.com
         ?subject=Interested in Your Web Dev Services
         &body=Hi sam.js, I'm [Your Name] from [Your Company/Website]. I came across your portfolio /n We're looking for a developer to help us with [briefly describe project scope and goals]. Could we schedule a brief call to discuss this further? Let me know your availability.`}
-        className="btn btn-primary">Let's start</Link>
+        className="btn btn-primary ">Let's start</Link>
         </div>
 
         <div className="bg1card mt-8">
