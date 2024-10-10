@@ -12,7 +12,7 @@ const Services = () => {
         <h1 className="title">Services</h1>
         <p className="p2 mt-2">I craft unique websites, web apps, and engaging landing pages with HTML, CSS, JavaScript, React, and Next.js,  delivering standout digital experiences tailored to your unique business needs.</p>
         <Link 
-        target="_blank" to={`mailto:josephsamuvel001@gmail.com
+        target="_blank" to={`mailto:contact@samjs.me
         ?subject=Interested in Your Web Dev Services
         &body=Hi sam.js, I'm [Your Name] from [Your Company/Website]. hope you are available for a quick call to discuss about my project? Let me know your availability.`}
         className="btn btn-primary">Schedule free call</Link>
@@ -65,7 +65,7 @@ const Services = () => {
             </Link>
           </div>
           <Link 
-        target="_blank" to={`mailto:josephsamuvel001@gmail.com
+        target="_blank" to={`mailto:contact@samjs.me
         ?subject=Interested in Your Web Dev Services
         &body=Hi sam.js, I'm [Your Name] from [Your Company/Website]. I came across your portfolio /n We're looking for a developer to help us with [briefly describe project scope and goals]. Could we schedule a brief call to discuss this further? Let me know your availability.`}
         className="btn btn-primary">Let's start</Link>
@@ -119,7 +119,7 @@ const Services = () => {
             </Link>
           </div>
           <Link 
-        target="_blank" to={`mailto:josephsamuvel001@gmail.com
+        target="_blank" to={`mailto:contact@samjs.me
         ?subject=Interested in Your Web Dev Services
         &body=Hi sam.js, I'm [Your Name] from [Your Company/Website]. I came across your portfolio /n We're looking for a developer to help us with [briefly describe project scope and goals]. Could we schedule a brief call to discuss this further? Let me know your availability.`}
         className="btn btn-primary ">Let's start</Link>
@@ -136,7 +136,7 @@ const Services = () => {
             <li>Ongoing website maintenance and support</li>
           </ul>
           <Link 
-        target="_blank" to={`mailto:josephsamuvel001@gmail.com
+        target="_blank" to={`mailto:contact@samjs.me
         ?subject=Interested in Your Web Dev Services
         &body=Hi sam.js, I'm [Your Name] from [Your Company/Website]. I came across your portfolio /n We're looking for a developer to help us with [briefly describe project scope and goals]. Could we schedule a brief call to discuss this further? Let me know your availability.`}
         className="btn btn-primary">Let's start</Link>
