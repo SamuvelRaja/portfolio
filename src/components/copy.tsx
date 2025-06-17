@@ -4,7 +4,7 @@ import copyImage from "../assets/copy.svg";
 const Copy = () => {
     const copyRef =useRef<HTMLButtonElement>(null)
   const copyEmail = async() => {
-    const email = "contact@samjs.me";
+    const email = "josephsamuvel001@gmail.com";
     navigator.clipboard.writeText(email);
     copyRef.current?copyRef.current.innerText="Copied":"";
   };

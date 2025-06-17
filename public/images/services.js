@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
-import GJH from "/public/images/GJH.webp";
-import baker from "/public/images/baker.webp";
-import gt from "/public/images/gtaudio.webp";
-import alar from "/public/images/alar.webp";
-import ananth from "/public/images/ananth.webp";
-import dodo from "/public/images/dodo.webp";
-import gjhinc from "/public/images/gjh-inc.webp";
-import rumble from "/public/images/rumble.webp";
+import GJH from "../../images/GJH.webp";
+import baker from "../../images/baker.webp";
+import gt from "../../images/gtaudio.webp";
+import alar from "../../images/alar.webp";
+import ananth from "../../images/ananth.webp";
+import dodo from "../../images/dodo.webp";
+import gjhinc from "../../images/gjh-inc.webp";
+import rumble from "../../images/rumble.webp";
+import "./service.css";
 
 const Services = () => {
   return (
-    <div className="pb-16 container max-w-[1080px] mx-auto pt-[75px] px-4">
+    <div className="pb-16 container max-w-[720px] mx-auto pt-[175px] px-4">
       <h1 className="title text-4xl font-bold text-[#f6f6f6] mb-4">Services</h1>
       <p className="p2 mt-2 text-base text-[#bababa]">
         I craft unique websites, web apps, and engaging landing pages with HTML,
@@ -42,8 +43,6 @@ const Services = () => {
           <li>Building dynamic and interactive web apps.</li>
           <li>Modern React and Next.js applications.</li>
         </ul>
-        </div>
-        <div>
         <h3 className="p-2 mt-8 mb-4 text-lg font-semibold text-[#f6f6f6]">
           Previous Projects
         </h3>
@@ -51,6 +50,7 @@ const Services = () => {
           <Link target="_blank" to={"https://gjh-inc.com"}>
             <div className="card rounded-lg shadow-lg project-card">
               <div className="overflow-hidden rounded-t-lg">
+                {/* Add appropriate image if available */}
                 <img
                   src={gjhinc}
                   alt="GJH INC"
@@ -62,7 +62,7 @@ const Services = () => {
                   GJH INC
                 </h3>
                 <p className="text-[#bababa] font-extralight text-sm">
-                  Corporate website for GJH INC, Sanfrancisco, US
+                  Corporate website for GJH INC
                 </p>
               </div>
             </div>
@@ -70,6 +70,7 @@ const Services = () => {
           <Link target="_blank" to={"https://rumblehauz.com"}>
             <div className="card rounded-lg shadow-lg project-card">
               <div className="overflow-hidden rounded-t-lg">
+                {/* Add appropriate image if available */}
                 <img
                   src={rumble}
                   alt="Rumblehauz"
@@ -81,7 +82,7 @@ const Services = () => {
                   Rumblehauz
                 </h3>
                 <p className="text-[#bababa] font-extralight text-sm">
-                  Website for Rumblehauz studio, malaysia
+                  Website for Rumblehauz
                 </p>
               </div>
             </div>
@@ -89,6 +90,7 @@ const Services = () => {
           <Link target="_blank" to={"https://dodobooks.in"}>
             <div className="card rounded-lg shadow-lg project-card">
               <div className="overflow-hidden rounded-t-lg">
+                {/* Add appropriate image if available */}
                 <img
                   src={dodo}
                   alt="Dodobooks"
@@ -100,7 +102,7 @@ const Services = () => {
                   Dodobooks
                 </h3>
                 <p className="text-[#bababa] font-extralight text-sm">
-                  ecommerce site for Dodobooks, Trichy
+                  ecommerce site for Dodobooks
                 </p>
               </div>
             </div>
@@ -108,6 +110,7 @@ const Services = () => {
           <Link target="_blank" to={"https://alarveliyeedu.com"}>
             <div className="card rounded-lg shadow-lg project-card">
               <div className="overflow-hidden rounded-t-lg">
+                {/* Add appropriate image if available */}
                 <img
                   src={alar}
                   alt="Alarveliyeedu"
@@ -119,7 +122,7 @@ const Services = () => {
                   Alarveliyeedu
                 </h3>
                 <p className="text-[#bababa] font-extralight text-sm">
-                  Website for Alarveliyeedu, Trichy
+                  Website for Alarveliyeedu
                 </p>
               </div>
             </div>
@@ -138,7 +141,7 @@ const Services = () => {
                   GJH Consulting 
                 </h3>
                 <p className="text-[#bababa] font-extralight text-sm">
-                  Built a landing page for GJH Consulting, California, US 
+                  Built a landing page for GJH Consulting 
                 </p>
               </div>
             </div>
@@ -155,6 +158,7 @@ const Services = () => {
         </Link>
       </div>
 
+      {/* Portfolio Section */}
       <div className="bg1card mt-8 p-6 rounded-lg">
         <h3 className="text-2xl text-[#f6f6f6] mb-4 font-semibold">
           Portfolio
@@ -226,6 +230,7 @@ const Services = () => {
           <Link target="_blank" to={"https://ananthdesignstudio.com"}>
             <div className="card project-card min-h-[200px] md:min-h-[298px] bg-[#232323] max-w-[414px] mx-auto mb-8 rounded-lg shadow-lg">
               <div className="overflow-hidden rounded-t-lg">
+                {/* Add appropriate image if available */}
                 <img
                   src={ananth}
                   alt="Ananth Design Studio"
@@ -254,6 +259,7 @@ const Services = () => {
         </Link>
       </div>
 
+      {/* Consulting and Support Section */}
       <div className="bg1card mt-8 p-6 rounded-lg">
         <h3 className="text-2xl text-[#f6f6f6] mb-4 font-semibold">
           Consulting and Support

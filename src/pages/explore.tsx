@@ -168,6 +168,16 @@ const Explore = () => {
       {/* experience */}
       <div className="exp pb-16">
         <h2 className="mt-10  text-xl font-medium">Experiences</h2>
+         <div className="bg1card ">
+          <h3 className="text-[16px] mb-4 font-medium">Fullstack Engineer - GJH INC, San Francisco <span className="plinks">Jun 2024 - present</span></h3>
+          <ul className="p1 list-outside p-4 my-0">
+            <li><strong>Enterprise Contract Management Platform:</strong> Developed comprehensive internal consulting platform using Next.js and Supabase, featuring multi-tier user roles (Super Admin/User), partner onboarding workflows, lifecycle management.</li>
+            <li>Developed and optimized web scraping infrastructure using Node.js and Puppeteer, automated deployment pipeline workflows with GitHub Actions resulting in 10x efficiency gains over legacy systems.</li>
+            <li><strong>Payment Infrastructure:</strong> Implemented secure Stripe payment processing with webhook architecture and robust server-side event handling for transaction management.</li>
+            <li><strong>Marketing Automation System:</strong> Engineered email marketing platform using Resend and Brevo APIs with CI/CD automation via GitHub Actions; implemented email deliverability best practices resulting in 5x improvement in lead generation and conversion rates.</li>
+          </ul>
+        </div>
+        
         <div className="bg1card ">
           <h3 className="text-[16px] mb-4 font-medium">Frontend Developer Lead - Zemuria.inc <span className="plinks">2023-2024</span></h3>
           <ul className="p1 list-outside p-4 my-0">
